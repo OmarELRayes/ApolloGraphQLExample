@@ -1,0 +1,20 @@
+{
+  "name": "apollo-boost",
+  "version": "1.0.0",
+  "description": "This is an example of how to use apollo-android which is a compliant which helps in consuming graphQL APIs. This project consumes the v4 of Github API which is a GraphQL API. <br> <b>Documentation</b>: https://developer.github.com/v4/  <br> It uses apollo-android for generating models according to the corresponding queries which help us to get results accordingly.<br> Documentation: https://github.com/apollographql/apollo-android<br><br> <pre> query {   repository(owner:\"jakewharton\", name:\"butterknife\") {     name     description     forkCount     url   } } </pre> The result of the above query is shown below:",
+  "main": "index.js",
+  "dependencies": {
+    "apollo-boost": "^0.1.16",
+    "apollo-client": "^2.4.2",
+    "apollo-cache-inmemory": "^1.2.10",
+    "apollo-link-http": "^1.5.5",
+    "graphql": "^14.0.2",
+    "graphql-tag": "^2.9.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

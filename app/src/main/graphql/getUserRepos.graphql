@@ -1,0 +1,13 @@
+query getUserRepos{
+  viewer {
+      avatarUrl
+      repositories(first:15
+      ) {
+          nodes{
+            name
+            createdAt
+
+          }
+        }
+    }
+}
